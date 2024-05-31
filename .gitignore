@@ -1,4 +1,8 @@
 /node_modules/
 custom-elements.json
-# only generated for size check
-my-element.bundled.js
+
+# !!@ wrong: only generated for size check
+# my-element.bundled.js
+
+# need for github pages/doc
+!docs/node_modules
