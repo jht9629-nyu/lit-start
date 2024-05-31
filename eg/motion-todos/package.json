@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "lit": "^3.0.0",
+    "@lit-labs/motion": "^1.0.1",
+    "@material/mwc-textfield": "^0.25.1",
+    "@material/mwc-checkbox": "^0.25.1",
+    "@material/mwc-button": "^0.25.1",
+    "@material/mwc-formfield": "^0.25.1"
+  }
+}

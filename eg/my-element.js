@@ -5,7 +5,6 @@
  */
 
 import {LitElement, html, css} from 'lit';
-import './eg/todo-list.js';
 
 /**
  * An example element.
@@ -55,8 +54,6 @@ export class MyElement extends LitElement {
         Click Count: ${this.count}
       </button>
       <slot></slot>
-
-      <todo-list></todo-list>
     `;
   }
 
