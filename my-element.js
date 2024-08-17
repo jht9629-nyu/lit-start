@@ -39,6 +39,8 @@ export class MyElement extends LitElement {
        * @type {number}
        */
       count: {type: Number},
+
+      header: {type: Number},
     };
   }
 
@@ -46,6 +48,8 @@ export class MyElement extends LitElement {
     super();
     this.name = 'World';
     this.count = 0;
+
+    console.log('MyElement header ', this.header);
   }
 
   render() {
